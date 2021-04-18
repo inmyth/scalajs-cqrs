@@ -1,0 +1,23 @@
+ssssssss# Fundamental to the build
+target/
+/scalalib/fetchedSources/
+/partest/fetchedSources/
+/linker-interface/**/scalajs-logging-src/
+/linker-interface/**/scalajs-logging-src-jars/
+/node_modules/
+
+# sbt
+.bsp/sbt.json
+
+# IDE specific
+.cache
+.classpath
+.project
+.settings/
+/.idea/
+/.idea_modules/
+bin/
+/.bloop/
+/.metals/
+/project/**/metals.sbt
+/.vscode/
